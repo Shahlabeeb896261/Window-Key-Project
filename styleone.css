@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.table {
+    border: 2px solid black;
+}
+
+.table tr, th {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+}
